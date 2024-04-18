@@ -1,66 +1,59 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# HTTP-5225 Assignment 3
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+"Food Directory" is a project where users can explore delicious foods, complete with details like nutrition facts and images. Admins have special access to manage the directory with add, update, delete and view which ensures the directory stays fresh.
 
-## About Laravel
+### Database Schema
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The database schema implements a one-to-one relationship between the "items" table and the "item_details" table. This relationship is established through the "food_item_id" foreign key column in the "item_details" table, referencing the primary key column ("id") in the "items" table. As a result, each record in the "items" table corresponds to exactly one record in the "item_details" table, ensuring that each food item has its own set of detailed nutritional information. 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### User Flow
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Home screen (for all user)
 
-## Learning Laravel
+![Screenshot 2024-04-18 at 18-19-17 Lara LMS.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_18-19-17_Lara_LMS.png)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Login Screen
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+![Screenshot 2024-04-18 at 18-29-34 Laravel.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_18-29-34_Laravel.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Register Screen
 
-## Laravel Sponsors
+![Screenshot 2024-04-18 at 18-29-22 Laravel.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_18-29-22_Laravel.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Dashboard (Admin)
 
-### Premium Partners
+![Screenshot 2024-04-18 at 18-20-29 Laravel.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_18-20-29_Laravel.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### Admin can see all the items
 
-## Contributing
+### with the options to edit and delete
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![Screenshot 2024-04-18 at 18-20-39 Lara LMS.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_18-20-39_Lara_LMS.png)
 
-## Code of Conduct
+### if admin click on edit
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+![Screenshot 2024-04-18 at 18-22-49 Lara LMS.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_18-22-49_Lara_LMS.png)
 
-## Security Vulnerabilities
+### if admin clicks on delete the item gets deleted and they can see the toast message
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![Screenshot 2024-04-18 at 18-21-05 Lara LMS.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_18-21-05_Lara_LMS.png)
 
-## License
+### Admin can add an item
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Screenshot 2024-04-18 at 19-21-32 Lara LMS.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_19-21-32_Lara_LMS.png)
+
+### If any user tries to access the pages which is accessible by admin only
+they get redirected to the login page
+
+![Screenshot 2024-04-18 at 18-29-34 Laravel.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_18-29-34_Laravel%201.png)
+
+### Things Which I was unable to do
+
+Detail view for the food item, when user clicks on details page they should see the details of the food item from the item details page.
+
+I have made the schema for it but was unable to do the view and controller because of the time scope and I have missed some lecture of the laravel so my speed was slow while working on this assignment in compare to the assignment 1 and 2.
+
+### Laravel
+
+I liked the laravel it is more cleaner in compare to the using php in html directly.
+it is more structured and easy to implement the authentication. Even querying the database is simple but I think there was not much time to explore everything because when the semester is ending there are lot of assignments from all the subjects so if possible maybe you can start teaching laravel bit early.
