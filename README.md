@@ -10,7 +10,7 @@ The database schema implements a one-to-one relationship between the "items" tab
 
 ### Home screen (for all user)
 
-![Screenshot 2024-04-18 at 18-19-17 Lara LMS.png](https://github.com/codeyumm/Http5225-assignment3/tree/main/_readme)
+![Screenshot 2024-04-18 at 18-19-17 Lara LMS.png](_readme/Screenshot 2024-04-18 at 18-19-17 Lara LMS.png)
 
 ### Login Screen
 
