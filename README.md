@@ -28,7 +28,7 @@ The database schema implements a one-to-one relationship between the "items" tab
 
 ### with the options to edit and delete
 
-![Screenshot 2024-04-18 at 18-20-39 Lara LMS.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_18-20-39_Lara_LMS.png)
+![Screenshot 2024-04-18 at 18-20-39 Lara LMS.png](https://github.com/codeyumm/Http5225-assignment3/blob/main/_readme/Screenshot%202024-04-18%20at%2018-20-39%20Lara%20LMS.png)
 
 ### if admin click on edit
 
@@ -36,7 +36,7 @@ The database schema implements a one-to-one relationship between the "items" tab
 
 ### if admin clicks on delete the item gets deleted and they can see the toast message
 
-![Screenshot 2024-04-18 at 18-21-05 Lara LMS.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_18-21-05_Lara_LMS.png)
+![Screenshot 2024-04-18 at 18-21-05 Lara LMS.png](https://github.com/codeyumm/Http5225-assignment3/blob/main/_readme/Screenshot%202024-04-18%20at%2018-21-05%20Lara%20LMS.png)
 
 ### Admin can add an item
 
