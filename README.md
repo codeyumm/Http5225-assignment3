@@ -14,11 +14,11 @@ The database schema implements a one-to-one relationship between the "items" tab
 
 ### Login Screen
 
-![Screenshot 2024-04-18 at 18-29-34 Laravel.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_18-29-34_Laravel.png)
+![Screenshot 2024-04-18 at 18-29-34 Laravel.png](https://github.com/codeyumm/Http5225-assignment3/blob/main/_readme/Screenshot%202024-04-18%20at%2018-29-34%20Laravel.png)
 
 ### Register Screen
 
-![Screenshot 2024-04-18 at 18-29-22 Laravel.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_18-29-22_Laravel.png)
+![Screenshot 2024-04-18 at 18-29-22 Laravel.png](https://github.com/codeyumm/Http5225-assignment3/blob/main/_readme/Screenshot%202024-04-18%20at%2018-29-22%20Laravel.png)
 
 ### Dashboard (Admin)
 
@@ -40,12 +40,12 @@ The database schema implements a one-to-one relationship between the "items" tab
 
 ### Admin can add an item
 
-![Screenshot 2024-04-18 at 19-21-32 Lara LMS.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_19-21-32_Lara_LMS.png)
+![Screenshot 2024-04-18 at 19-21-32 Lara LMS.png](https://github.com/codeyumm/Http5225-assignment3/blob/main/_readme/Screenshot%202024-04-18%20at%2019-21-32%20Lara%20LMS.png)
 
 ### If any user tries to access the pages which is accessible by admin only
 they get redirected to the login page
 
-![Screenshot 2024-04-18 at 18-29-34 Laravel.png](HTTP-5225%20Assignment%203%20eb9f2492aeb3422995978c48b5e494f7/Screenshot_2024-04-18_at_18-29-34_Laravel%201.png)
+![Screenshot 2024-04-18 at 18-29-34 Laravel.png](https://github.com/codeyumm/Http5225-assignment3/blob/main/_readme/Screenshot%202024-04-18%20at%2018-29-34%20Laravel.png)
 
 ### Things Which I was unable to do
 
